@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "node-addon-api": "^4.0.0",
+    "threads": "^1.6.5"
+  },
+  "scripts": {
+    "install": "node-gyp rebuild"
+  },
+  "gypfile": true,
+  "name": "snipes-curl",
+  "version": "1.0.0",
+  "main": "./build/Release/greet.node",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
